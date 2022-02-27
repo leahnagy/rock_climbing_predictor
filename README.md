@@ -1,5 +1,4 @@
-# Linear Regression Project Write-up
-### Predicting Average User-Ratings of Rock-Climbing Routes
+# Predicting Average User-Ratings of Rock-Climbing Routes
 ### Abstract
 The goal of this project was to use Linear Regression models to predict the average user-rating for rock-climbing routes in Kentucky. I collected data from the Mountain Project website about each route using web scraping. After collecting the data, I ran through multiple types of regression models before arriving at a final model. 
 ### Design
