@@ -2,7 +2,7 @@
 ### Abstract
 The goal of this project was to use Linear Regression models to predict the average user-rating for rock-climbing routes in Kentucky. I collected data from the Mountain Project website about each route using web scraping. After collecting the data, I ran through multiple types of regression models before arriving at a final model. 
 ### Design
-Kentucky has some of the best rock climbing in the world and is considered the rock climbing mecca of the East coast. Rock climbing guides are a vital part of the community there. With over 3,000 routes to choose from, a rock climbing guide company wants to better understand their what makes routes more desirable than others to provide the optimal experience for their clients. 
+Kentucky has some of the best rock climbing in the world and is considered the rock climbing mecca of the East coast. Rock climbing guides are a vital part of the community there. With over 3,000 routes to choose from, a rock climbing guide company wants to better understand what makes routes more desirable than others to provide the optimal experience for their clients. 
 ### Data
 After some Exploratory Data Analysis and Feature Engineering, the dataset contains 1,582 routes. I collected 17 features on each route and the final model includes a total of 12 features. The data was collected from Mountain Project's website using Selenium and BeautifulSoup. 
 ### Algorithms
