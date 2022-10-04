@@ -1,6 +1,14 @@
-# Predicting Average User-Ratings of Rock-Climbing Routes
+# Linear Regression Project
+## Predicting Average User-Ratings of Rock-Climbing Routes
+Created By: Leah Nagy
+
+### Table of Contents
+1. [Presentation Slides](https://github.com/leahnagy/rock_climbing_predictor/blob/main/mtn_project_slides.pdf)
+2. [Webscraping Code](https://github.com/leahnagy/rock_climbing_predictor/blob/main/mtn_project_scrape_routes.ipynb)
+3. [Project Code](https://github.com/leahnagy/rock_climbing_predictor/blob/main/mtn_project_final_model.ipynb)
+
 ### Abstract
-The goal of this project was to use Linear Regression models to predict the average user-rating for rock-climbing routes in Kentucky. I collected data from the Mountain Project website about each route using web scraping. After collecting the data, I ran through multiple types of regression models before arriving at a final model. 
+Predicting the average user-rating for rock-climbing routes in Kentucky using Linear Regression models was the goal of this project. By webscraping the Mountain Project's website, I collected information about each route that could be used to make predictions on future routes. After collecting the data, I ran through multiple types of regression models before arriving at a final model. 
 ### Design
 Kentucky has some of the best rock climbing in the world and is considered the rock climbing mecca of the East coast. Rock climbing guides are a vital part of the community there. With over 3,000 routes to choose from, a rock climbing guide company wants to better understand what makes routes more desirable than others to provide the optimal experience for their clients. 
 ### Data
@@ -9,8 +17,8 @@ After some Exploratory Data Analysis and Feature Engineering, the dataset contai
 ##### Feature Engineering
 <ol>
     <li> The route's share-date was changed to the number of years  on the app for comparison</li>
-    <li> The number of ratings, comments, photos and ticks were added together as a popularity metric because of multicollinearity issues</li>
-    <li> Adding dummy variables for the categorical features</li>
+    <li> The number of ratings, comments, photos and ticks were added together since these features were highly correlated</li>
+    <li> Encoded categorical features</li>
     <li> Added interaction variables:
         <ul>
             <li> Difficulty Rating X Route Length</li>
